@@ -1,0 +1,39 @@
+.div-mae-dicas{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.conteudo{
+   width: 100vw;
+}
+
+.texto{
+    width:65vw;
+    text-align: justify;
+}
+
+.titulo-dicas{
+    color: #11270b;
+    margin-top: 140px;
+    width: 85%;
+    text-align: center;
+}
+    
+.imagem-dicas{
+    width: 80%;
+}
+
+.titulo-geral{
+    color: #11270b;
+    margin-top: 140px;
+    width: 85%;
+    text-align: center;
+}
+
+.imagens-dicas-geral{
+   width: 50vw;
+   margin: 0 auto;
+   height:300px ;
+}
+
+

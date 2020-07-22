@@ -1,0 +1,23 @@
+.sobre-links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    align-items: center;
+}
+.imagem-embaixada{
+  width: 30%;
+  
+
+}
+.section-embaixadas{
+  margin-top: 130px;
+}
+.div-imagem-embaixada{
+ 
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-imagem-embaixada>h2{
+  width: 50%;
+}
