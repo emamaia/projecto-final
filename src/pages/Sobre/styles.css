@@ -1,0 +1,33 @@
+.paragrafo-sobrenos{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color:  #1e4613;
+}
+.imagem-sobrenos{
+    width: 30vw;
+}
+.imagem-contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato{
+    text-align: left;
+    color:  #1e4613;
+    
+}
+.imagem-contato li{
+ list-style: none;
+ 
+ 
+}
+.imagem-contato a{
+    text-decoration: none;
+    color: #BA2D0B;
+}

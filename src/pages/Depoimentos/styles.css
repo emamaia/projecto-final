@@ -1,0 +1,39 @@
+.div-depoimento{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    font-size: 14px;
+}
+.minha-imagem{
+    width: 40vw;
+}
+
+.imagem-depoimento{
+    width: 100%;
+}
+.texto-depoimentos{
+    width: 50vw;
+   background-color: #e6e1e1;
+   padding: 10px;
+    
+}
+
+.texto-depoimentos>p{
+    text-align: justify;
+}
+
+  h2{
+    text-align: center;
+   color: #1e4613;
+}
+
+.compartilhar{
+    width: 100%;
+    max-width: 300px;
+    background:  #BA2D0B;
+    color:#ffffff;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
