@@ -28,11 +28,34 @@ p{
 }
 
 .geral{
+  width: 90%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+
+
+.lateral-1{
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+}
+
+.subtitulo{
+  width: 50%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.emergencias{
+  display: flex;
+  justify-content: space-around;
+}
+
+.embaixadas{
+  width: 40%;
+}
+
+.orgaos-publicos{
+  width: 40%;
 }
 
 .embaixadas a{
@@ -61,10 +84,24 @@ p{
   h2{
     color:  #1e4613;
 }
-.emergencias p{
+/* .emergencias p{
   width: 50%;
-}
+} */
 .numero-destaque{
   font-weight: 700;
+  
+}
+
+@media(max-width:620px){
+  .lateral-1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .emergencias{
+    flex-direction: column;
+    
+  }
 }
 
