@@ -1,4 +1,5 @@
 import React from 'react';
+import Menu from '../../components/NavBar/Menu/index.js';
 import logo from '../../assets/logo.png'
 
 import './styles.css'
@@ -11,13 +12,7 @@ function navbar () {
           alt='Logotipo do guia do kamba'
           className='navbar-logo'
         />
-        <div className='link'>
-          <ul>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-          </ul>
-        </div>
+         <Menu/>
        
       </nav>
     )
