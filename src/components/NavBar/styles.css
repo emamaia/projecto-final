@@ -1,4 +1,4 @@
-.link ul{
+/* .link ul{
   text-decoration:none;
   display: flex;
   justify-content: space-around;
@@ -9,7 +9,7 @@
 .link ul li{
 text-decoration: none;
 margin-left: 20px;
-}
+} */
 
 .navbar{
     display: flex;
