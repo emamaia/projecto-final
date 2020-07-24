@@ -1,9 +1,9 @@
-import React from 'react'
+import React,{Component} from 'react'
 import { Link } from 'react-router-dom'
 
 
 
-class Menu extends React.Component {
+class Menu extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -26,37 +26,24 @@ class Menu extends React.Component {
         }
         return (
             <div className='nav-menu navbar-links'>
-                <span className={classesDoBotao} onClick={this.handleAbreOuFecha}>
-                    Menu
-        </span>
+                <span className={classesDoBotao} onClick={this.handleAbreOuFecha}> Menu</span>
+
                 <ul className={classesDasOpcoes}>
-                <li>
-                        <Link to='/' className='navbar-links__ativo'>
-                            Home
-                        </Link>
+                    <li>
+                        <Link to='/' className='navbar-links__ativo'> Home</Link>
                     </li>
                     <li>
-                        <Link to='/dicas' className='navbar-links__ativo'>
-                            Dicas e Empregos
-                        </Link>
+                        <Link to='/dicas' className='navbar-links__ativo'> Dicas e Empregos </Link>
                     </li>
                     <li>
-                        <Link to='/servicos' className='navbar-links__ativo'>
-                            Serviços Úteis
-                        </Link>
+                        <Link to='/servicos' className='navbar-links__ativo'>Serviços Úteis</Link>
                     </li>
                     <li>
-                        <Link to='/depoimentos' className='navbar-links__ativo'>
-                            Depoimetos
-                        </Link>
+                        <Link to='/depoimentos' className='navbar-links__ativo'> Depoimetos </Link>
                     </li>
                     <li>
-                        <Link to='/sobre' className='navbar-links__ativo'>
-                            Sobre nós
-                        </Link>
+                        <Link to='/sobre' className='navbar-links__ativo'>Sobre nós</Link>
                     </li>
-
-
                 </ul>
 
             </div>

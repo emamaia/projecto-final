@@ -1,10 +1,14 @@
 .div-mae-dicas{
-    width: 80vw;
     margin: 0 auto;
 }
 
 .conteudo{
    width: 100vw;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .texto{
@@ -13,27 +17,50 @@
 }
 
 .titulo-dicas{
-    color: #11270b;
+   color: #1e4613;
     margin-top: 140px;
     width: 85%;
     text-align: center;
 }
     
 .imagem-dicas{
-    width: 80%;
+    max-width: 900px;
+    border-radius: 5px;
 }
 
 .titulo-geral{
-    color: #11270b;
+    color: #1e4613;
     margin-top: 140px;
     width: 85%;
     text-align: center;
 }
 
 .imagens-dicas-geral{
-   width: 50vw;
+   width: 40vw;
    margin: 0 auto;
    height:300px ;
+   object-fit: cover;
+   border-radius: 5px;
+
 }
+
+.links-empregos li{
+    list-style: none;
+}
+
+.links-empregos a{
+    text-decoration: none;
+    color: #BA2D0B;
+}
+
+@media(max-width:620px){
+    .titulo-dicas{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+    
+  }
 
 

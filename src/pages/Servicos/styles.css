@@ -1,8 +1,12 @@
+p{
+  font-size: 14px;
+}
 .sobre-links{
     display: flex;
     justify-content: space-around;
     margin-top: 140px;
     align-items: center;
+    flex-direction: column;
 }
 .imagem-embaixada{
   width: 30%;
@@ -18,6 +22,85 @@
     flex-direction: column;
     align-items: center;
 }
-.div-imagem-embaixada>h2{
+.div-imagem-embaixada h2{
   width: 50%;
+  text-align: center;
 }
+
+.geral{
+  width: 90%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+
+
+.lateral-1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.subtitulo{
+  width: 50%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.emergencias{
+  display: flex;
+  justify-content: space-around;
+}
+
+.embaixadas{
+  width: 40%;
+}
+
+.orgaos-publicos{
+  width: 40%;
+}
+
+.embaixadas a{
+  text-decoration: none;
+  color: #BA2D0B;
+}
+.embaixadas li{
+  list-style: none;
+}
+
+
+.orgaos-publicos a{
+ text-decoration: none;
+ color: #BA2D0B;
+
+}
+.orgaos-publicos li{
+  list-style: none;
+}
+
+.orgaos-publicos p{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+  h2{
+    color:  #1e4613;
+}
+
+.numero-destaque{
+  font-weight: 700;
+  color: #BA2D0B;
+  
+}
+
+@media(max-width:620px){
+  .lateral-1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .emergencias{
+    flex-direction: column;
+    
+  }
+}
+

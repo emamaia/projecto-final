@@ -1,5 +1,4 @@
 import React from 'react';
-import{Link} from 'react-router-dom';
 import dicas from '../../assets/dicas.png';
 import saude from '../../assets/saude.jpg';
 import OJXLemprego from '../../assets/OJXLemprego.jpg';
@@ -9,20 +8,20 @@ import './styles.css';
 
 function Dicas() {
     return (
+      // section-pricipal
     <section className='div-mae-dicas'>
         <h1 className='titulo-dicas'> Sugestões para aquelas pessoas que chegaram ou pensam em vir para morar ou estudar por conta própria ou até mesmo por bolsa no Brasil.</h1>
       <div className=' conteudo'>
-        <div className='imagem'>
+         <div className='imagem'>
             <img className='imagem-dicas' src={dicas} alt='Imagem de viajantes'></img>
-        </div>
+         </div>
 
           <div className='texto'>
-            
             <p>Aconselho a se informar desde seu país, como é a cidade onde vai morar, como é a cultura, a gastronomia, a infraestrutura da cidade, fazer pesquisa do tipo:
                         PLANEJAMENTO, é o ponto mais importante. Quando surgir a ideia da viagem, pense em todos os fatores que serão essenciais para a sobrevivência longe da sua terra natal como: família, moradia, trabalho, e, claro, dinheiro. CUIDE DA LEGALIZAÇÃO, é importante saber tudo o que for preciso para ficar legalmente no país. CONHEÇA O BRASIL, O olhar da pessoa residente é muito diferente de quem vem para passear.</p>
             <p> Então, procure conhecer e estudar regras, como as leis, costumes do país, sabemos que a cultura muda muito de uma nação para outra, portanto, é preciso se adequar aos hábitos locais para que não sofremos com punições e multas do país. Se puder, faça as contas de tudo, o que se vai gastar, por exemplo, em moradia, alimentação, transporte, educação, etc.</p>
           </div>
-      </div >
+       </div >
 
         <div className='conteudo'>
           <div>
@@ -35,35 +34,32 @@ function Dicas() {
             <p>A saúde no Brasil é muito boa dependendo do lugar. Em comparação de alguns Países do Continente Africano.
             É importante, entender como funciona o Sistema Únio de Saúde (SUS), evitar desgastes emocionais e para que serve o cadastro de pessoa física (CPF).
             Sendo brasileiro ou estrangeiro, para utilizar o SUS, você precisa fazer o cartão ou se cadastrar em postos de saúde. Na maioria das cidades, o atendimento é demorado, além da falta de alguns medicamentos. Mas a saúde é pública e gratuita. Na maioria dos postos, pedem apenas documento e comprovante de residência para se cadastrar.
-                    </p>
+           </p>
           </div>
         </div>
-
-       <div className='conteudo'>
+        <div className='conteudo'>
         <div>
            <h2 className='titulo-geral'>Emprego</h2>
           <img className='imagens-dicas-geral' src={OJXLemprego} alt='imagem de emprego'></img>
         </div>
-
-        <div  className='texto'>
-                     
-                  <p>A diversidade no Brasil também se estende pela educação e trabalho. Há regiões que é quase impossível achar um emprego, ao passo que, outras apresentam relativa facilidade.
+               <div className='texto'>
+                     <p>A diversidade no Brasil também se estende pela educação e trabalho. Há regiões que é quase impossível achar um emprego, ao passo que, outras apresentam relativa facilidade.
                      Digo isso, porque estamos em um país que não garante educação e estabilidade, Brasil é um lugar de muitas oportunidades para estudar, mas, também tem outras coisas que muitas vezes podem te levar a influências ruins. No entanto, seja firme nos teus objetivos, pois pode ser influenciada por vários fatores e pessoas, pois existem aquelas que querem estudar e também outros que não querem. Isso tudo vai depender com quem vais interagir, ou seja, andas, falas e até confiar
                     
                     Se você pretende encontrar empregos, existem sites onde pode cadastrar suas informações, currículo e também entrar em contato com outros profissionais da sua área. Isso vale para qualquer profissão. Segue alguns deles:
                 
                     </p>
                     <div className='links-empregos'>
-                    <Link link='https://br.linkedin.com/'>Cadastre-se no Linkedin</Link>
-                    <Link link='https://www.vagas.com.br/'>Veja vagas no vagas.com</Link>
-                    <Link link='https://www.curriculum.com.br/'>Veja vagas no vaga.com</Link>
-
-                    </div>
-        </div>
-       </div>
-
-
-       
+                    <ul>
+                     <li><a href='https://br.linkedin.com/' target="_blank">Cadastre-se no Linkedin</a></li>
+                     <li><a href=' https://www.vagas.com.br/' target="_blank">Veja vagas no vagas.com</a></li>
+                     <li><a href='https://www.curriculum.com.br/ ' target="_blank">Veja vagas no curriculum.com</a></li>
+                    </ul>
+              
+                     </div>
+                 </div>
+         </div>
+                  
        <div className='conteudo'>
                <div>
                  <h2 className='titulo-geral'>Educação</h2>
@@ -81,8 +77,7 @@ function Dicas() {
                     </p>
                 </div>
             </div>
-                    
-
+              
             <div className='conteudo'>
                <div>
                   <h2 className='titulo-geral'>Diferenças Culturais</h2>
@@ -107,9 +102,6 @@ function Dicas() {
                 </div>
 
             </div>
-
-
-
     </section>
 
     )
