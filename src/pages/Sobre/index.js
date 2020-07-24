@@ -1,6 +1,6 @@
 import React from 'react';
 import sobrenos from '../../assets/sobrenos.png';
-import { Link } from "react-router-dom";
+
 
 import './styles.css';
 
@@ -8,7 +8,7 @@ function Sobre() {
     return (
 
         <section>
-            <div className='sobre nos'>
+            <div className='sobre-nos'>
                 <div>
                     <div className='paragrafo-sobrenos'>
                     <h1>Nossa história</h1>
@@ -26,7 +26,7 @@ function Sobre() {
                             <h2 className='contato'>Contato:</h2>
                             <ul>
                                 <li><a href='mailto:marisa2014antnio@outlook.com' target="_blank"> E-email: marisa2014antnio@outlook.com</a></li>
-                                <li><a href='www.linkedin.com/in/marisa-antónio' target="_blank">Linkedin: marisa</a></li>
+                                <li><a href='https://www.linkedin.com/in/marisa-ant%C3%B3nio/' target="_blank">Linkedin: marisa</a></li>
                             </ul>
                         </div>
                         <div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import{Link} from 'react-router-dom';
 import dicas from '../../assets/dicas.png';
 import saude from '../../assets/saude.jpg';
 import OJXLemprego from '../../assets/OJXLemprego.jpg';
@@ -9,6 +8,7 @@ import './styles.css';
 
 function Dicas() {
     return (
+      // section-pricipal
     <section className='div-mae-dicas'>
         <h1 className='titulo-dicas'> Sugestões para aquelas pessoas que chegaram ou pensam em vir para morar ou estudar por conta própria ou até mesmo por bolsa no Brasil.</h1>
       <div className=' conteudo'>
@@ -53,7 +53,7 @@ function Dicas() {
                     <ul>
                      <li><a href='https://br.linkedin.com/' target="_blank">Cadastre-se no Linkedin</a></li>
                      <li><a href=' https://www.vagas.com.br/' target="_blank">Veja vagas no vagas.com</a></li>
-                     <li><a href='https://www.curriculum.com.br/ ' target="_blank">Veja vagas no vaga.com</a></li>
+                     <li><a href='https://www.curriculum.com.br/ ' target="_blank">Veja vagas no curriculum.com</a></li>
                     </ul>
               
                      </div>

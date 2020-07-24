@@ -1,58 +1,38 @@
-/* .link ul{
-  text-decoration:none;
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  align-items: center;
-  padding-top: 40px;
-}
-.link ul li{
-text-decoration: none;
-margin-left: 20px;
-} */
-
 .navbar{
     display: flex;
-    /* align-items: center; */
+    /* justify-content: space-between; */
     justify-content: space-around;
-    flex: 0 60px;
-    /* min-height: 90px; */
+    /* flex: 0 60px; */
     padding: 0;
     color:#ffffff;
     background-color: #BA2D0B;
     position: fixed; 
     top: 0; 
     width: 100%; 
-    /* z-index: 99; */
+
 }
-  
 .navbar-logo {
     display: block;
     width: 170px;
-    
+
 }
   
 .navbar-links {
     list-style: none;
     text-decoration: none;
     display: flex;
-    /* list-style: none;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 0; */
 }
-  
+
 .navbar-links li {
     margin-left: 1rem;
 }
-  
+
 .navbar-links a {
     color: #ffffff;
     text-transform: uppercase;
     padding-bottom: 0.3rem;
 }
-  
+
 
 .navbar-menu__botao {
     cursor: pointer;
@@ -112,15 +92,6 @@ margin-left: 20px;
      width: initial;
      background: initial;
      transform: initial;
-        /* display: flex;
-        align-items: center;
-        position: initial;
-        height: initial; */
-        /* width: initial; */
-        /* padding: initial; */
-        /* background: initial;
-        transform: initial;
-        transition: initial; */
 }
   
 .navbar-menu__opcoes--aberto {

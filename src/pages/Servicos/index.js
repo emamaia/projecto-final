@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import servicosuteis from '../../assets/servicosuteis.png'
 
 import './styles.css';
@@ -12,34 +11,33 @@ function Servicos() {
       {/* div da imagem */}
       <div className='div-imagem-embaixada'>
         <h2>Segue alguns links de embaixadas e consulados que podem ajudar você durante sua estadia no Brasil:</h2>
-        <img className='imagem-embaixada' src={servicosuteis} alt='imagem de embaixada'></img>
+        <img className='imagem-embaixada' src={servicosuteis} alt='imagem da embaixada'></img>
       </div>
       <div className='geral'>
         <div className='lateral-1'>
           <div className='embaixadas'>
-            <h2>Embaixadas e Consolados</h2>
+            <h2>Embaixadas e Consulados</h2>
             <ul>
-              <li><a href='http://www.embaixadadeangola.com.br/' target="_blank">Angola</a></li>
-              <li><a href=' https://consuladoangolarj.org/' target="_blank">Angola</a></li>
-              <li><a href=' http://consuladogeraldeangolasp.net/' target="_blank">Angola</a></li>
-              <li><a href=' http://www.embcv.org.br/portal/embaixada/ ' target="_blank">Cabo Verde</a></li>
-              <li><a href='https://www.embaixadas.net/Consulado/' target="_blank">Cabo Verde</a></li>
-              <li><a href=' https://www.embaixadas.net/' target="_blank">Guiné-Bissau</a></li>
-              <li><a href=' https://consulados.com.br/' target="_blank">Guiné-Bissau</a></li>
-              <li><a href=' http://www.mozambique.org.br/' target="_blank">Moçambique</a></li>
-              <li><a href=' https://www.embaixadas.net/Consulado' target="_blank">Moçambique</a></li>
+              <li><a href='http://www.embaixadadeangola.com.br/' target="_blank">Angola-Brasilia</a></li>
+              <li><a href=' https://consuladoangolarj.org/' target="_blank">Angola-rio de Janeiro</a></li>
+              <li><a href=' http://consuladogeraldeangolasp.net/' target="_blank">Angola-São Paulo</a></li>
+              <li><a href=' http://www.embcv.org.br/portal/embaixada/ ' target="_blank">Cabo Verde-Brasilia</a></li>
+              <li><a href='https://www.embaixadas.net/Consulado/' target="_blank">Cabo Verde-São Paulo</a></li>
+              <li><a href=' https://www.embaixadas.net/' target="_blank">Guiné-Bissau-Brasilia</a></li>
+              <li><a href=' https://consulados.com.br/' target="_blank">Guiné-Bissau-São Paulo</a></li>
+              <li><a href=' http://www.mozambique.org.br/' target="_blank">Moçambique-Brasilia</a></li>
+              <li><a href=' https://www.embaixadas.net/' target="_blank">Moçambique-São Paulo</a></li>
             </ul>
           </div>
 
           <div className='orgaos-publicos'>
             <h2>Órgãos públicos</h2>
-            <p>Você pode tratar assuntos de CPF e vistos na Receita e na Polícia Federal. Procure o site do Estado que mora. Segue alguns deles</p>
+            <p>Você pode tratar assuntos de CPF e vistos na Receita e na Polícia Federal. Procure o site do Estado que mora. Segue alguns deles:</p>
             <ul>
               <li><a href='http://www.pf.gov.br/' target="_blank">Brasilia</a></li>
               <li><a href='http://receita.economia.gov.br/ ' target="_blank">Brasilia</a></li>
               <li><a href=' http://www.pf.gov.br/' target="_blank">Ceará</a></li>
               <li><a href=' http://receita.economia.gov.br/ ' target="_blank">Ceará</a></li>
-              <li><a href='https://www.embaixadas.net/Consulado/' target="_blank">Cabo Verde</a></li>
               <li><a href=' http://receita.economia.gov.br/ ' target="_blank">São Paulo</a></li>
               <li><a href=' http://www.pf.gov.br/ ' target="_blank">São Paulo</a></li>
             </ul>
@@ -58,7 +56,7 @@ function Servicos() {
               <p>Policia Rodiviária Federal <span className='numero-destaque'>-191</span></p>
               <p>Policia Rodoviária Estadual <span className='numero-destaque'>-198</span></p>
               <p> Defesa Civíl<span className='numero-destaque'>-199</span></p>
-              <p> Serviço de Atendimento Móvel de Urgência - SAMU (pronto-socorro) <span>-192</span></p>
+              <p> Serviço de Atendimento Móvel de Urgência - SAMU (pronto-socorro) <span className='numero-destaque' >-192</span></p>
 
             </div>
          

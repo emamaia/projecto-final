@@ -84,11 +84,10 @@ p{
   h2{
     color:  #1e4613;
 }
-/* .emergencias p{
-  width: 50%;
-} */
+
 .numero-destaque{
   font-weight: 700;
+  color: #BA2D0B;
   
 }
 
