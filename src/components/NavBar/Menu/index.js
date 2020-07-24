@@ -39,7 +39,7 @@ class Menu extends Component {
                         <Link to='/servicos' className='navbar-links__ativo'>Serviços Úteis</Link>
                     </li>
                     <li>
-                        <Link to='/depoimentos' className='navbar-links__ativo'> Depoimetos </Link>
+                        <Link to='/depoimentos' className='navbar-links__ativo'> Depoimentos </Link>
                     </li>
                     <li>
                         <Link to='/sobre' className='navbar-links__ativo'>Sobre nós</Link>
