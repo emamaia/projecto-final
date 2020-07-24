@@ -16,7 +16,7 @@ class Depoimentos extends React.Component {
             },
 
             textoNovo: '',
-            // sucesso: true,
+        
 
         }
     }
@@ -36,7 +36,6 @@ class Depoimentos extends React.Component {
         const novoDepoimento = this.state.texto.valor
         this.setState({
             textoNovo: novoDepoimento,
-            // sucesso: false
         })
 
     }

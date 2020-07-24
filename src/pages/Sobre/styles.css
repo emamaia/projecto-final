@@ -17,6 +17,7 @@ h1{
     justify-content: space-around;
 }
 
+
 .contato{
     text-align: left;
     color:  #1e4613;
@@ -32,6 +33,11 @@ h1{
     color: #BA2D0B;
 }
 
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
 
 @media(max-width:620px){
     .sobre-nos{
