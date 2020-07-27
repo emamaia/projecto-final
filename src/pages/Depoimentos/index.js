@@ -126,7 +126,7 @@ class Depoimentos extends React.Component {
                  {this.state.listaDepoimentos.map(item => {
                         return (
                             <div className= 'div-map'>
-                                <span className='depoimentos-texto'>{item.depoimento}</span>
+                                <p className='depoimentos-texto'>{item.depoimento}</p>
                                 
                                 <p className= 'depoimentos-nome'> - {item.nome}</p>
                             </div>
