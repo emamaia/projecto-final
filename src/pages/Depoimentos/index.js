@@ -14,9 +14,14 @@ class Depoimentos extends React.Component {
             texto: {
                 valor: '',
             },
+            name: {
+                valor: '',
+            },
 
             textoNovo: '',
-        
+            nameNovo: '',
+            listaDepoimentos: [],
+            
 
         }
     }
@@ -34,12 +39,24 @@ class Depoimentos extends React.Component {
     handleClick = (ev) => {
         ev.preventDefault()
         const novoDepoimento = this.state.texto.valor
+        const novoNome = this.state.name.valor
         this.setState({
             textoNovo: novoDepoimento,
+            nameNovo: novoNome,
         })
 
-    }
+        const lista = {
+            depoimento: novoDepoimento,
+            nome: novoNome
+        }
+        
+    const listaFinal = this.state.listaDepoimentos
+    listaFinal.push(lista)
 
+    console.log(listaFinal)
+      
+       
+    }
 
     render() {
         return (
@@ -77,7 +94,20 @@ class Depoimentos extends React.Component {
                             name='texto'
                             type='text'
                             placeholder='Digite seu depoimento'
+                            inputClasse='input-depoimentos'
                         />
+
+                        <label>Nome completo:</label>
+                        <InputDepoimentos
+                            required
+                            mudaEstado={this.handleChange}
+                            name='name'
+                            type='text'
+                            placeholder='Digite seu nome'
+                            inputClasse='input-nome'
+
+                        />
+
                     </div>
 
                     <div className='container-btn'>
@@ -92,8 +122,18 @@ class Depoimentos extends React.Component {
 
                 </form>
 
-                <div className='mostra-depoimentos'>
-                    <span className='depoimentos-texto'>{this.state.textoNovo}</span>
+                 <div className='mostra-depoimentos'>
+                 {this.state.listaDepoimentos.map(item => {
+                        return (
+                            <div className= 'div-map'>
+                                <span className='depoimentos-texto'>{item.depoimento}</span>
+                                
+                                <p className= 'depoimentos-nome'> - {item.nome}</p>
+                            </div>
+                        )
+                    })
+                    }                  
+
                 </div>
 
             </div>
