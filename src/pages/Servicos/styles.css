@@ -8,14 +8,15 @@ p{
     align-items: center;
     flex-direction: column;
 }
+
 .imagem-embaixada{
   width: 30%;
-  
-
 }
+
 .section-embaixadas{
   margin-top: 130px;
 }
+
 .div-imagem-embaixada{ 
    display: flex;
     flex-direction: column;
