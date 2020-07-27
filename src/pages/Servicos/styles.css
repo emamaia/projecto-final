@@ -29,8 +29,7 @@ p{
 }
 
 .geral{
-  width: 90%;
-  /* max-width: 1000px; */
+  width: 90%;  
   margin: 0 auto;
 }
 
@@ -41,7 +40,7 @@ p{
 }
 
 .subtitulo{
-  width: 50%;
+  
   margin:0 auto;
   text-align: center;
 }
@@ -81,9 +80,12 @@ p{
   width: 100%;
   text-align: center;
   font-size: 14px;
+
+
 }
   h2{
     color:  #1e4613;
+    text-align: center;
 }
 
 .numero-destaque{
@@ -102,6 +104,14 @@ p{
   .emergencias{
     flex-direction: column;
     
+  }
+
+  .embaixadas{
+    width: 90%;
+  }
+
+  .orgaos-publicos{
+    width: 90%;
   }
 }
 
